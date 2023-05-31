@@ -18,4 +18,6 @@ align-items: center;
 
 .secao-vertical .secao__cartoes {
     grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, (minmax(100%/2, max(348px,100%/3) ), 1fr));
 }
